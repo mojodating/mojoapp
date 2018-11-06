@@ -1,5 +1,7 @@
 {
-  "name": "empty-project-template",
+  "name": "mojoapp-frontend-template",
+  "version": "0.0.1",
+  "description": "mojo react native mvp app",
   "main": "node_modules/expo/AppEntry.js",
   "private": true,
   "scripts": {
@@ -8,6 +10,16 @@
     "ios": "expo start --ios",
     "eject": "expo eject"
   },
+  "engines": {
+    "node": "~10.13.0",
+    "npm": "~6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tcsiwula/mojoapp.git"
+  },
+  "author": "Tim Siwula <seekingzen@timsiwula.com> (http://www.timsiwula.com)",
+  "license": "MIT",
   "dependencies": {
     "expo": "^31.0.2",
     "react": "16.5.0",
