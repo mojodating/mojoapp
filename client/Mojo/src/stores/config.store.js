@@ -1,8 +1,11 @@
+
+import logoImg from '../images/logo.png';
+
+
 export default class ConfigStore {
   constructor() {
-    // in miliseconds
-    this.splashTime = 4000
-    this.splashImg = require('../images/logo-1-splash.jpg')
+    this.splashTime = 1000
+    this.splashImg = logoImg
   }
 
   get SplashImg() {
